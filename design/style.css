@@ -261,3 +261,43 @@ footer h4 {
         font-size: 0.9rem;
     }
 }
+
+.contact-form-section {
+  margin-top: 65%;
+  padding: 5%;
+  background-color: #000;
+  color: rgb(139, 226, 156);
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-weight: bold;
+  color: #000;
+  background-color: rgb(139, 226, 156);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #fff;
+  color: #000;
+}
