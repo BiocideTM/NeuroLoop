@@ -345,7 +345,7 @@ footer h4 {
 }
 
 #HashTag {
-  top: 2rem;
+  bottom: -2rem;
   left: 1rem;
 }
 
