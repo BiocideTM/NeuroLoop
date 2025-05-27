@@ -31,7 +31,14 @@ nav.topnav {
   display: flex;
   gap: 1rem;
 }
-
+nav.topnav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
 a.btn {
   display: flex;
   align-items: center;
@@ -40,8 +47,8 @@ a.btn {
   text-decoration: none;
   color: #fff;
   border: 3px solid #fff;
-  padding: 1rem 3rem;
-  /* Wider button */
+  padding: 1.3rem 4rem; /* Increased height and width */
+  min-width: 200px;     /* Ensures buttons are wider */
   transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
