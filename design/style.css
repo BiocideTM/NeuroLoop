@@ -115,7 +115,7 @@ img.icon:active {
 #BannerTitle {
   font-size: 8rem;
   margin-bottom: 2%;
-  margin-top: 6vh;
+  margin-top: 100vh;
   color: rgba(194, 178, 128, 0.75);
   font-family: "Shadows Into Light", Arial, Helvetica, sans-serif;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
