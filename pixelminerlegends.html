@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Miner</title>
+  <link rel="stylesheet" href="./design/style.css" />
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    button { padding: 10px 20px; font-size: 16px; }
+    footer.retour {
+      width: 100%;
+      background: transparent;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      z-index: 100;
+      min-height: 80px;
+      pointer-events: none;
+    }
+    .footer-logo {
+      position: absolute;
+      left: 1rem;
+      bottom: 1rem;
+      pointer-events: auto;
+    }
+    .footer-logo img {
+      width: 48px;
+      height: 48px;
+      border-radius: 30%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <h1>⛏ Mini Miner</h1>
+  <p>Click the rock to mine ore!</p>
+  <button onclick="mineOre()">🪨 Mine</button>
+  <p>Ore Collected: <span id="oreCount">0</span></p>
+
+  <footer class="retour">
+    <div class="footer-logo">
+      <a href="index.html">
+        <img src="./design/media/graphic/logo.png" alt="Back to Home" />
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    let ore = 0;
+    function mineOre() {
+      ore++;
+      document.getElementById('oreCount').textContent = ore;
+    }
+  </script>
+</body>
+</html>
