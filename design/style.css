@@ -64,7 +64,7 @@ img.logo {
 }
 
 img.logo:hover {
-  transform: translateY(-50%) scale(1.1);
+  transform: translateY(-50%) translateX(20%) scale(1.1);
   filter: drop-shadow(0 0 8px rgba(139, 226, 156, 0.8));
 }
 
