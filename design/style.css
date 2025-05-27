@@ -48,7 +48,7 @@ a.btn {
   color: #fff;
   border: 3px solid #fff;
   padding: 1.3rem 4rem; /* Increased height and width */
-  min-width: 200px;     /* Ensures buttons are wider */
+  min-width: 500px;     /* Ensures buttons are wider */
   transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
