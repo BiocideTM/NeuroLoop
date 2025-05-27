@@ -5,11 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects - NeuroLoop</title>
+  <link rel="icon" type="image/x-icon" href="./design/media/graphic/favicon.ico" />
   <link rel="stylesheet" href="./design/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro&display=swap"
-    rel="stylesheet" />
-</head>
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -30,41 +29,39 @@
     </div>
   </header>
 
-  <!-- Portfolio Section -->
-  <section class="introduction">
-    <div class="features">
-      <img class="feature" src="./design/media/projects/project1.jpg" alt="Project 1 Screenshot" />
+  <!-- Main Content -->
+  <main class="introduction">
+    <section id="projects" class="features">
       <div class="copywriting">
-        <h2>Game Stats Tracker</h2>
-        <h3>A web app for tracking player progress and rankings — inspired by Old School RuneScape and Minecraft.</h3>
+        <h2>PixelMiner Legends</h2>
+        <h3>A clicker game</h3>
+        <ul>
+          <li>
+            PixelMiner Legends is a clicker game where you mine resources, upgrade your tools, and unlock new achievements as you progress. Stay tuned for more updates!
+          </li>
+        </ul>
       </div>
+    </section>
+    <div class="information" style="color: rgb(139, 226, 156); font-size: 1rem; text-align: left; margin-top: 2rem;">
+      <strong>About Me</strong><br>
+      I’m learning full stack development and love well written video games!<br>
+      I enjoy building interactive web applications and exploring new technologies.<br>
+      My goal is to create engaging digital experiences and continuously improve my programming skills.<br>
+      <strong>Contact:</strong> keanuverhelst@gmail.com
     </div>
-    <div class="features">
-      <img class="feature" src="./design/media/projects/project2.jpg" alt="Project 2 Screenshot" />
-      <div class="copywriting">
-        <h2>Photography Portfolio</h2>
-        <h3>A minimal responsive site showcasing original photography with smooth navigation and mobile support.</h3>
-      </div>
-    </div>
-    <div class="features">
-      <img class="feature" src="./design/media/projects/project3.jpg" alt="Project 3 Screenshot" />
-      <div class="copywriting">
-        <h2>Landing Page Redesign</h2>
-        <h3>Full-stack redesign of a brand’s homepage using HTML, CSS, and JavaScript to boost usability and engagement.
-        </h3>
-      </div>
-    </div>
-  </section>
+  </main>
 
   <!-- Footer -->
-  <footer class="retour">
-    <div class="information">
-      <h4>© 2025 NeuroLoop. All rights reserved.</h4>
-    </div>
-    <div class="footing">
+  <footer class="retour" style="position: relative; min-height: 120px;">
+    <!-- Bottom left: logo only -->
+    <div class="footing" style="position: absolute; left: 1rem; bottom: 1rem;">
       <a href="index.html">
-        <img class="home" src="./design/media/graphic/logo.png" alt="Back to Home">
+        <img class="logo" src="./design/media/graphic/logo.png" alt="Back to Home">
       </a>
+    </div>
+    <!-- Bottom right: watermark -->
+    <div style="position: absolute; right: 1rem; bottom: 1rem; color: rgb(139, 226, 156); font-size: 0.9rem;">
+      © 2025 NeuroLoop. All rights reserved.
     </div>
   </footer>
 </body>
